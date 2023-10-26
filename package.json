@@ -1,0 +1,38 @@
+{
+  "name": "boilerplate-javascript",
+  "version": "1.0.0",
+  "description": "A boilerplate javascript project",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "nodemon index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contentful/boilerplate-javascript.git"
+  },
+  "engines": {
+    "node": ">=20.8.1"
+  },
+  "keywords": [
+    "Contentful",
+    "boilerplate",
+    "Getting-Started"
+  ],
+  "author": "Khaled Garbaya <khaled@contentful.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/contentful/boilerplate-javascript/issues"
+  },
+  "homepage": "https://github.com/contentful/boilerplate-javascript#readme",
+  "dependencies": {
+    "boilerplate": "^0.6.1",
+    "chalk": "^5.3.0",
+    "cli-table2": "^0.2.0",
+    "contentful": "^10.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
